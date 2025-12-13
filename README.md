@@ -1,4 +1,3 @@
-# Smart-Doc-Analyst
 # 📄 Smart Doc Analyst
 
 **Smart Doc Analyst** (also called *Smart Assignment Insight Generator*) is an AI-powered web application that transforms academic PDF documents into **exam-ready study material** using Google Gemini API.
