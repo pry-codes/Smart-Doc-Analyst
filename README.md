@@ -137,6 +137,8 @@ Then open:
 
 ```
 http://localhost:5000
+
+Even works in https://47633ctb-5000.inc1.devtunnels.ms/
 ```
 
 ---
