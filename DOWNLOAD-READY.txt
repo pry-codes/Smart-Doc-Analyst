@@ -1,0 +1,409 @@
+╔════════════════════════════════════════════════════════════════╗
+║              PROJECT DOWNLOAD & SETUP GUIDE                      ║
+║   KIIT HackDays 2025 - Smart Assignment Insight Generator         ║
+║   Complete Download Instructions                                 ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+📥 DOWNLOAD INSTRUCTIONS
+═══════════════════════════════════════════════════════════════════
+
+This guide explains how to download all files and set them up.
+
+
+🎯 OPTION 1: DOWNLOAD ALL FILES (EASIEST)
+═══════════════════════════════════════════════════════════════════
+
+Step 1: Download Complete Package
+────────────────────────────────────────────────────────────────
+
+If available as archive:
+  • kiit-gemini-hack-submission.zip
+  • OR kiit-gemini-hack-submission.tar.gz
+
+Download location: From project repository/submission portal
+
+Step 2: Extract Archive
+────────────────────────────────────────────────────────────────
+
+Windows:
+  1. Right-click on .zip file
+  2. Select "Extract All"
+  3. Choose location: Desktop or Documents
+  4. Click Extract
+
+macOS:
+  1. Double-click .zip file
+  2. Automatically extracts to Downloads folder
+  3. Move to desired location
+
+Linux:
+  tar -xzf kiit-gemini-hack-submission.tar.gz
+  # OR
+  unzip kiit-gemini-hack-submission.zip
+
+Step 3: Folder Created
+────────────────────────────────────────────────────────────────
+
+After extraction, you'll have:
+  kiit-gemini-hack/
+  ├── app.py
+  ├── requirements.txt
+  ├── run.sh
+  ├── templates/index.html
+  ├── docs/(all documentation)
+  └── (and more files)
+
+
+🎯 OPTION 2: DOWNLOAD INDIVIDUAL FILES
+═══════════════════════════════════════════════════════════════════
+
+Step 1: Create Main Folder
+────────────────────────────────────────────────────────────────
+
+Create folder on your computer:
+  Name: kiit-gemini-hack
+  Location: Desktop or Documents
+
+Step 2: Create Subfolders
+────────────────────────────────────────────────────────────────
+
+Inside kiit-gemini-hack/:
+  • Create: templates/ (folder)
+  • Create: uploads/ (folder)
+  • Create: docs/ (folder)
+
+Step 3: Download Production Files
+────────────────────────────────────────────────────────────────
+
+Download these 8 files to kiit-gemini-hack/ (root):
+  ✓ app.py
+  ✓ requirements.txt
+  ✓ run.sh
+  ✓ .gitignore
+  ✓ 00_READ_ME_FIRST.txt
+  ✓ MANIFEST.txt
+  ✓ DOWNLOAD-READY.txt
+  ✓ FILE-SETUP-GUIDE.txt
+
+Step 4: Download Setup Scripts
+────────────────────────────────────────────────────────────────
+
+Download these 2 files to kiit-gemini-hack/ (root):
+  ✓ verify-submission.sh
+  ✓ QUICK_START.sh
+
+Step 5: Download HTML File
+────────────────────────────────────────────────────────────────
+
+Download 1 file to kiit-gemini-hack/templates/:
+  ✓ index.html
+
+Step 6: Download Documentation
+────────────────────────────────────────────────────────────────
+
+Download 10 files to kiit-gemini-hack/docs/:
+  ✓ README.md
+  ✓ SUBMISSION-SUMMARY.txt
+  ✓ SUBMISSION-GUIDE.txt
+  ✓ FINAL-PACKAGE.txt
+  ✓ demo-proof.txt
+  ✓ GETTING_STARTED.txt
+  ✓ submission-guide.txt
+  ✓ final-package.txt
+  ✓ INDEX.txt
+  ✓ index.txt
+
+
+📊 FILE DOWNLOAD CHECKLIST
+═══════════════════════════════════════════════════════════════════
+
+ROOT LEVEL (10 files):
+□ app.py
+□ requirements.txt
+□ run.sh
+□ .gitignore
+□ 00_READ_ME_FIRST.txt
+□ MANIFEST.txt
+□ DOWNLOAD-READY.txt
+□ FILE-SETUP-GUIDE.txt
+□ verify-submission.sh
+□ QUICK_START.sh
+
+TEMPLATES FOLDER (1 file):
+□ templates/index.html
+
+DOCS FOLDER (10 files):
+□ README.md
+□ SUBMISSION-SUMMARY.txt
+□ SUBMISSION-GUIDE.txt
+□ FINAL-PACKAGE.txt
+□ demo-proof.txt
+□ GETTING_STARTED.txt
+□ submission-guide.txt
+□ final-package.txt
+□ INDEX.txt
+□ index.txt
+
+TOTAL: 21 files
+
+
+✅ VERIFY DOWNLOADS
+═══════════════════════════════════════════════════════════════════
+
+After downloading, verify:
+
+Windows Command Prompt:
+  cd kiit-gemini-hack
+  dir /s
+  # Should show all files
+
+macOS/Linux Terminal:
+  cd kiit-gemini-hack
+  ls -la
+  ls -la docs/
+  ls -la templates/
+  # Should show all files
+
+Check for:
+  ✓ app.py exists
+  ✓ requirements.txt exists
+  ✓ run.sh exists
+  ✓ templates/index.html exists
+  ✓ docs/README.md exists
+  ✓ All script files (.sh) present
+  ✓ All info files (.txt) present
+
+
+🚀 SETUP AFTER DOWNLOAD
+═══════════════════════════════════════════════════════════════════
+
+Step 1: Open Terminal/Command Prompt
+────────────────────────────────────────────────────────────────
+
+Windows:
+  • Press: Win+R
+  • Type: cmd
+  • Press: Enter
+
+macOS:
+  • Applications → Utilities → Terminal
+
+Linux:
+  • Ctrl+Alt+T
+
+Step 2: Navigate to Folder
+────────────────────────────────────────────────────────────────
+
+cd kiit-gemini-hack
+
+Step 3: Get Gemini API Key
+────────────────────────────────────────────────────────────────
+
+Visit: https://ai.google.com/gemini
+Click: Get API Key (or Get Started)
+Copy: Your API key
+Keep it safe
+
+Step 4: Make Scripts Executable (macOS/Linux only)
+────────────────────────────────────────────────────────────────
+
+chmod +x run.sh
+chmod +x verify-submission.sh
+chmod +x QUICK_START.sh
+
+Step 5: Choose Setup Method
+────────────────────────────────────────────────────────────────
+
+OPTION A: Interactive Setup (RECOMMENDED)
+  ./QUICK_START.sh
+  # Follows prompts, sets API key, runs app automatically
+
+OPTION B: Manual Setup
+  export GEMINI_API_KEY='paste-your-api-key-here'
+  ./run.sh
+
+OPTION C: Verify First
+  ./verify-submission.sh
+  # Checks all files are present and correct
+  # Then run: ./run.sh
+
+Step 6: Check Console Output
+────────────────────────────────────────────────────────────────
+
+Should see:
+  ✅ Gemini API configured successfully
+  ✅ Installing dependencies...
+  ✅ Dependencies installed
+  ✅ Flask running on http://localhost:5000
+
+Step 7: Open Browser
+────────────────────────────────────────────────────────────────
+
+URL: http://localhost:5000
+
+Should see:
+  ✅ Beautiful purple gradient UI
+  ✅ "Upload PDF" section
+  ✅ "Analyze with Gemini AI" button
+  ✅ Results section below
+
+Step 8: Test the Application
+────────────────────────────────────────────────────────────────
+
+1. Have a PDF ready (any CSE-related PDF works)
+2. Drag PDF into upload area (or click to browse)
+3. Click "Analyze with Gemini AI"
+4. Wait 15-20 seconds
+5. See results:
+   • Summary (5-8 concepts)
+   • 15 MCQs
+   • 10 exam questions
+   • Study metrics
+
+
+⚠️ TROUBLESHOOTING DURING SETUP
+═══════════════════════════════════════════════════════════════════
+
+Problem: "Python not found"
+Solution:
+  1. Install Python from python.org
+  2. Download Python 3.8 or higher
+  3. During install, CHECK "Add Python to PATH"
+  4. Restart your computer
+  5. Try again
+
+Problem: "Permission denied" (macOS/Linux)
+Solution:
+  chmod +x run.sh
+  chmod +x verify-submission.sh
+  chmod +x QUICK_START.sh
+
+Problem: "ModuleNotFoundError: No module named 'flask'"
+Solution:
+  # Create and activate virtual environment
+  python3 -m venv venv
+  
+  # Activate
+  # macOS/Linux:
+  source venv/bin/activate
+  # Windows:
+  venv\Scripts\activate
+  
+  # Install dependencies
+  pip install -r requirements.txt
+  
+  # Run
+  python3 app.py
+
+Problem: "Port 5000 already in use"
+Solution:
+  # Kill existing process
+  # macOS/Linux:
+  lsof -i :5000
+  kill -9 <PID>
+  
+  # Windows:
+  netstat -ano | findstr :5000
+  taskkill /PID <PID> /F
+  
+  # Try again
+  ./run.sh
+
+Problem: "GEMINI_API_KEY not configured"
+Solution:
+  # Check if set
+  echo $GEMINI_API_KEY
+  
+  # If empty, set again
+  export GEMINI_API_KEY='your-api-key'
+  
+  # Verify
+  echo $GEMINI_API_KEY
+  # Should show your key
+
+Problem: "PDF upload not working"
+Solution:
+  1. Check file size (must be <16MB)
+  2. Verify it's a valid PDF
+  3. Try different PDF
+  4. Check console for errors
+
+
+📋 WHAT TO READ AFTER DOWNLOAD
+═══════════════════════════════════════════════════════════════════
+
+FOR QUICK START:
+  1. 00_READ_ME_FIRST.txt (entry point)
+  2. FILE-SETUP-GUIDE.txt (setup help)
+  3. Run ./QUICK_START.sh
+
+FOR JUDGES:
+  1. 00_READ_ME_FIRST.txt
+  2. MANIFEST.txt (this package)
+  3. docs/FINAL-PACKAGE.txt (evaluation checklist)
+  4. Run ./verify-submission.sh
+
+FOR DEVELOPERS:
+  1. docs/README.md (full documentation)
+  2. Review app.py (code)
+  3. Review templates/index.html (UI)
+  4. Run ./verify-submission.sh
+
+
+🎯 TYPICAL SETUP TIME
+═══════════════════════════════════════════════════════════════════
+
+Total Time: 10-15 minutes
+
+  Download files: 2-3 minutes
+  Extract/Organize: 2 minutes
+  Get API key: 2 minutes
+  Run setup script: 1-2 minutes
+  Test application: 3-5 minutes
+
+
+✨ YOU'RE READY!
+═══════════════════════════════════════════════════════════════════
+
+After following these steps:
+  ✓ All files downloaded
+  ✓ Folder structure organized
+  ✓ Application running
+  ✓ Ready to test
+  ✓ Ready to present to judges
+
+
+📞 IF YOU HAVE ISSUES
+═══════════════════════════════════════════════════════════════════
+
+READ (in order):
+  1. FILE-SETUP-GUIDE.txt (TROUBLESHOOTING section)
+  2. docs/README.md (FAQ section)
+  3. MANIFEST.txt (file listing)
+
+Or:
+
+RUN: ./verify-submission.sh
+  • Checks all files present
+  • Validates structure
+  • Shows any issues
+
+
+═══════════════════════════════════════════════════════════════════
+
+DOWNLOAD SUMMARY:
+
+Total Files to Download: 21
+Total Size (compressed): ~500 KB
+Total Size (uncompressed): ~167 KB
+Setup Time: 10-15 minutes
+Python Needed: 3.8+
+API Key: FREE (https://ai.google.com/gemini)
+
+Status: READY TO DOWNLOAD & USE
+
+═══════════════════════════════════════════════════════════════════
+Smart Assignment Insight Generator
+KIIT HackDays 2025 | Gemini API Track | December 13, 2025
+═══════════════════════════════════════════════════════════════════
